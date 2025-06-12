@@ -1,0 +1,64 @@
+@use "../abstracts" as *;
+@use "../abstracts/variables" as *;
+
+.main-footer {
+    background-color: #F5EFEA;
+    
+    border-top: solid 1px;
+
+    &__content {
+        @extend %container-desktop;
+        
+        margin: 6rem auto;
+        display: flex;
+
+        > div {
+            flex: 1;
+            text-align: center;
+            line-height: 1.3;
+        }
+
+        h3 {
+            font-size: 2.9rem;
+            font-weight: 500;
+            font-family: "Josefin Sans", sans-serif;
+            color: black;
+            margin-bottom: 2.4rem;
+        }
+
+        .opening-hours li:nth-of-type(3) {
+            font-weight: 600;
+            color: black;
+        }
+        .logo-inner img {
+            height: 17rem;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1.5rem;
+
+        &::before,
+        &::after {
+            content: "";
+            height: 1px;
+            background-color: black;
+            width: 100%;
+        }
+
+        p {
+            white-space: nowrap;
+            color: black;
+        }
+        a {
+            white-space: nowrap;
+            color: #B59877;
+        }
+    }
+}
