@@ -1,13 +1,22 @@
 import Hero from "./Hero"
-import { NewSectionL, NewSectionR } from "./NewSection"
-import homeData from "../../data/homeData.json"
 
 function HomePage() {
-    const data = homeData;
-
     return <main className="home-page">
         <Hero />
-        <NewSectionL {...data[0]} />
+        
+        <section className="sec-primary">
+            <div className="sec-primary__container">
+                <div className="sec-primary__content">
+                    <h1 className="sec-primary__title">Le berceau du bien-être</h1>
+                    <p className="sec-primary__text">
+                        Depuis des siècles les Indonésiens ont développé leur propre culture autour du massage et des soins du corps, Il s’agit en fait d’une combinaison de « traitements » physiques et spirituels permettant d’atteindre une relaxation complète du corps et de l’esprit. Créer une atmosphère de calme et de sérénité lui permettant de se détendre au maximum. A l’apogée de la relaxation, les parfums, les couleurs et textures de certaines fleurs affectent les sens humains. D’après les habitants, les fleurs de Frangipanier, Ylang Ylang, Jasmin et autres Hibiscus sont les fleurs des Dieux suprêmes. Certains encens, ont de forts pouvoirs sur les âmes…
+                    </p>
+                </div>
+
+                <div className="sec-primary__image">
+                </div>
+            </div>
+        </section>
         
         <section className="sec-leni">
             <div className="sec-leni__container">
