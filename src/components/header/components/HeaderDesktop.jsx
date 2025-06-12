@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from "../../../assets/Logo"
 import { FacebookIcone, InstagramIcone } from "../../../assets/icons/icons";
 
@@ -55,6 +55,7 @@ function NavBar({ pathname, headerClass }) {
         Accueil: '/',
         Services: '/services',
         Contact: '/contact',
+        Média: '/media',
     }
 
     /**
