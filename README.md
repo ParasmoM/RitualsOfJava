@@ -1,12 +1,91 @@
-# React + Vite
+# Ritual of Java — Projet d'examen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ritual of Java** est un site web fictif d’un établissement de bien-être, réalisé dans le cadre de mon examen final. Ce projet met en pratique mes compétences en développement web moderne avec React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Objectifs du projet
 
-## Expanding the ESLint configuration
+Ce projet répond aux exigences pédagogiques de l’examen :
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Structuration sémantique des pages
+- Utilisation de **React** pour la création de composants réutilisables
+- Mise en place de **styles SCSS** organisés et maintenables
+- Responsive design fonctionnel sur :
+  - Mobile
+  - Écran < 1024px
+  - Écran < 1600px
+  - Écran ≥ 1600px
+- Site exploitable en réseau local
+- Navigation fluide via un menu principal
+
+---
+
+## Technologies utilisées
+
+- **React**
+- **Vite** (serveur de développement rapide)
+- **SCSS** pour les styles modulaires
+- **Responsive Web Design**
+- HTML5 sémantique via JSX
+
+---
+
+## Pages du site
+
+Le site comprend 4 pages principales :
+
+| Page        | Description |
+|-------------|-------------|
+| **Accueil** | Présentation de l’univers de l’établissement |
+| **Media**   | Intégration d’une vidéo YouTube + contenu visuel enrichi |
+| **Soins**   | Mise en avant des services bien-être avec descriptions |
+| **Contact** | Formulaire de contact complet (nom, email, message, etc.) |
+
+---
+
+## Structure du projet
+
+RitualOfJava/
+├── public/
+│   └── images/
+├── src/
+│   ├── assets/
+│   │   ├── icons/
+│   │   ├── styles/
+│   │   │   ├── scss/
+│   │   │   │   ├── abstracts/
+│   │   │   │   ├── animations/
+│   │   │   │   ├── base/
+│   │   │   │   ├── components/
+│   │   │   │   ├── pages/
+│   │   │   │   └──  main.scss
+│   │   │   ├── main.css
+│   │   │   └── main.css.map
+│   │   ├── Logo.jsx
+│   │   └── LogoEmblem.jsx
+│   ├── components/
+│   ├── data/
+│   ├── hooks/
+│   ├── pages/
+│   ├── router/
+│   ├── utils/
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package-lock.json
+├── package.json
+└── README.md
+
+## Lancer le projet en local
+
+1. **Cloner le projet** :
+   ```bash
+   git clone https://github.com/ParasmoM/RitualsOfJava.git
+   cd RitualsOfJava
+
+2.	Installer les dépendances :
+    npm install
+
+3.	Lancer le serveur de développement :
+    npm run dev
