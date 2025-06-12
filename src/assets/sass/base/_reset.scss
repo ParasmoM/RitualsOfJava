@@ -1,0 +1,97 @@
+@use "../abstracts" as *;
+@use "../abstracts/variables" as *;
+
+* {
+
+	&,
+	&::before,
+	&::after {
+		box-sizing: inherit;
+	}
+}
+
+html {
+    font-size: 62.5%; //! 1rem = 10px    100% = 16px
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+img,
+picture,
+svg {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+form,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-size: $global--font-size;
+	font-weight: $global--font-weight;
+    line-height: $global--line-height;
+	color: $global--color-text;
+	background-color: $global--color-background;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: $global--font-weight-title;
+    line-height: .8;
+}
+
+.wp-block-columns {
+    gap: 0;
+    margin: 0;
+    padding: 0;
+}

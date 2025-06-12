@@ -1,0 +1,131 @@
+@use "colors" as *;
+
+// -----------------------------------------------------------------------------
+// Fonts
+// -----------------------------------------------------------------------------
+// Font Families
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+// -----------------------------------------------------------------------------
+// Font Sizes
+$font-sizes : (
+    xs:         1.4rem, // tiny
+    sm:         1.6rem, // small
+    md:         1.8rem, // normal
+    lg:         2.2rem, // medium
+    xl:         2.5rem, // large
+    xxl:        3rem, // xlarge
+    title:      4.6rem, 
+    max-title:  7rem,
+);
+// -----------------------------------------------------------------------------
+// Font Weights
+$font-weights : (
+    light:      300,
+    regular:    400,
+    medium:     500,
+    semibold:   600,
+    bold:       700,
+);
+// -----------------------------------------------------------------------------
+// Spacings
+// -----------------------------------------------------------------------------
+$spacings: (
+    xs:     .8rem,   
+    sm:     1.5rem,
+    md:     2rem, 
+    lg:     3rem,  
+    xl:     6rem,    
+    xxl:    10rem,   
+    auto:   auto,
+);
+// -----------------------------------------------------------------------------
+// Breakpoints
+// -----------------------------------------------------------------------------
+$breakpoints : (
+    xs:     480px,       
+    sm:     768px,       
+    md:     992px,      
+    lg:     1280px,      
+    xl:     1440px,      
+    xxl:    192rem,     
+);
+// -----------------------------------------------------------------------------
+// CSS Custom Properties
+// -----------------------------------------------------------------------------/*  */
+:root {
+    @each $theme, $theme-values in $colors {
+        @each $key, $value in $theme-values {
+            --clr-#{$theme}-#{$key}: #{$value};
+        }
+    }
+
+    @each $prop, $value in $font-sizes {
+        --font-size-#{$prop}: #{$value};
+    }
+
+    @each $prop, $value in $font-weights {
+        --font-weight-#{$prop}: #{$value};
+    }
+
+    @each $prop, $value in $spacings {
+        --spacing-#{$prop}: #{$value};
+    }
+
+    @each $prop, $value in $breakpoints {
+        --breakpoint-#{$prop}: #{$value};
+    }
+}
+
+// $titles: (
+//     primary: (
+//         fs: map-get($font-sizes, xxl), 
+//         spacing: map-get($spacings, xl), 
+//         style: true
+//     ),
+//     secondary: (
+//         fs: map-get($font-sizes, xl), 
+//         spacing: map-get($spacings, sm),
+//     ),
+//     tertiary: (
+//         fs: map-get($font-sizes, lg), 
+//     ),
+// );
+
+// * ----------------------- Body ----------------------- * //
+ // Colors
+$global--color-text: #707070;
+$global--color-background: #FFFFFF; 
+
+ // Font Size 
+$global--font-size: var(--font-size-md);
+
+ // Font Weight 
+$global--font-weight: var(--font-weight-regular);
+$global--font-weight-title: var(--font-weight-regular);
+
+ // Line Height 
+$global--line-height: 1.7;
+
+ // Max-Width
+$global--desktop-max-width: var(--breakpoint-xxl);
+
+ // Width
+$global--desktop-width: calc(100% - 14%);
+
+// * ---------------------- Header ---------------------- * //
+ // Spacing 
+// $header--spacing-block: var(--spacing-lg);
+
+// * ---------------------- Footer ---------------------- * //
+ // Spacing 
+// $footer--spacing-block: var(--spacing-lg);
+
+// * ----------------------- Home ----------------------- * //
+ // color
+// $home--color-titre: var(--clr-theme-500);
+
+ // Font Size 
+// $home--font-size-titre: var(--font-size-titre);

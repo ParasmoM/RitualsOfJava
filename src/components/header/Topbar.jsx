@@ -18,7 +18,7 @@ function Topbar({ className }) {
             </div>
 
             <div className={`${className}__logo`} >
-                {/* <img src="/images/logo_rituals_simple.jpg" alt="Description" /> */}
+                <img src="/images/logo_rituals_simple.jpg" alt="Description" />
             </div>
         </div>
     );
