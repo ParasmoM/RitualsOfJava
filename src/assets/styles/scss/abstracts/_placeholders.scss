@@ -1,0 +1,70 @@
+@use "variables" as *;
+
+%container {
+    max-width: $global--desktop-max-width;
+    margin: auto;
+
+    &-desktop {
+        margin: auto;
+        width: $global--desktop-width;
+    }
+}
+
+%title {
+    line-height: 1.2;
+    font-size: 3rem;
+    color: black;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    border-bottom: solid 3px;
+    padding-bottom: 3rem;
+    margin-bottom: 6rem;
+
+    @media (min-width: 768px) {
+        font-size: 3.8rem;
+    }
+
+    @media (min-width: 912px) {
+        font-size: 3.6rem;
+    }
+
+    @media (min-width: 992px) {
+        font-size: 3.8rem;
+    }
+}
+
+%button {
+    display: block;
+    width: fit-content;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: solid 1px;
+    border-color: var(--clr-theme-400);
+    color: var(--clr-theme-900);
+    background-color: var(--clr-theme-400);
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    margin: 3rem 0 0 0;
+
+    @media (min-width: 768px) {
+        font-size: 1.8rem;
+        margin: 3rem 0 0 0;
+    }
+
+    @media (min-width: 992px) {
+        border-color: #B59877;
+        color: var(--clr-theme-900);
+        background-color: white;
+        margin: 6rem 0 0 0;
+    }
+
+    @media (min-width: 768px) {
+        &:hover {
+            border-color: var(--clr-theme-400);
+            color: var(--clr-theme-100);
+            background-color: var(--clr-theme-400);
+            transition: all .4s ease-in-out;
+        }
+    }
+}

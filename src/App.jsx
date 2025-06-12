@@ -1,17 +1,20 @@
-import { BrowserRouter as Router } from "react-router-dom";
-import Header from "./components/header/header";
-import { Footer } from "./components/footer";
-import AppRoutes from "./routes/AppRoutes";
+import { BrowserRouter as Router } from 'react-router-dom';
+import GetRoutes from "./router/GetRoutes";
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
+import ScrollToTop from './hooks/ScrollToTop';
 
 function App() {
     return (
-        <Router>
-            <Header />
-            <AppRoutes />
-            <Footer />
-        </Router>
-    );
+        <>
+            <Router>
+                <ScrollToTop />
+                <Header />
+                <GetRoutes />
+                <Footer />
+            </Router>
+        </>
+    )
 }
 
-export default App;
-
+export default App

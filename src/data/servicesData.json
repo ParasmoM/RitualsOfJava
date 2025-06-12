@@ -1,0 +1,576 @@
+{
+    "Femme": {
+        "Beauté du regard": {
+            "product": [
+                {
+                    "price": 15,
+                    "name": "Teinture cils ou sourcils",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 25,
+                    "name": "Teinture cils plus sourcils",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 50,
+                    "name": "Rehaussement de cils",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Épilation définitive ": {
+            "method": "Diode laser",
+            "list": [
+                {
+                    "title": "Visage",
+                    "method": "Diode laser",
+                    "product": [
+                        {
+                            "price": 55,
+                            "name": "lèvre supérieure",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 40,
+                            "name": "menton",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 60,
+                            "name": "favoris",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 150,
+                            "name": "visage complèt",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Bikini",
+                    "method": "Diode laser",
+                    "product": [
+                        {
+                            "price": 80,
+                            "name": "Échancré",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 110,
+                            "name": "Semi intégral",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 150,
+                            "name": "Intégral",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 70,
+                            "name": "Sillon de fesses",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Corps",
+                    "method": "Diode laser",
+                    "product": [
+                        {
+                            "price": 60,
+                            "name": "Bas ventre",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 80,
+                            "name": "Aisselles",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 100,
+                            "name": "Avant bras",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 175,
+                            "name": "Bras entiers",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Bas du corps",
+                    "method": "Diode laser",
+                    "product": [
+                        {
+                            "price": 180,
+                            "name": "Mi-Jambe avec genoux",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 320,
+                            "name": "Jambes entière",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Forfait",
+                    "method": "Diode laser",
+                    "product": [
+                        {
+                            "price": 120,
+                            "name": "Aisselles + bikini échancré",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 320,
+                            "name": "Aisselles + semi intégral + mi-jambes",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 150,
+                            "name": "Aisselles + semi intégral",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 200,
+                            "name": "Aisselles + intégral",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 180,
+                            "name": "Aisselles + visage entier",
+                            "method": "",
+                            "info": ""
+                        },
+                        {
+                            "price": 450,
+                            "name": "Jambes entières + semi intégral + aisselles",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "Épilation à la cire": {
+            "product": [
+                {
+                    "price": 18,
+                    "name": "Avant bras",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 25,
+                    "name": "Bras entiers",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 25,
+                    "name": "Demi-jambes",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 45,
+                    "name": "Jambes entières",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Épilation à la pâte de sucre": {
+            "product": [
+                {
+                    "price": 15,
+                    "name": "Aisselles",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 15,
+                    "name": "Bikini échancré",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 25,
+                    "name": "Bikini semi-intégral",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 35,
+                    "name": "Bikini intégral",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 5,
+                    "name": "Lèvre supérieure",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 10,
+                    "name": "Sourcils",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 20,
+                    "name": "Visage",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Fusion 2 soins anti-âge puissance": {
+            "method": "",
+            "list": [
+                {
+                    "title": "Soin oxygenant et liftant",
+                    "product": [
+                        {
+                            "price": 150,
+                            "name": "Un traitement oxygénant et liftant conçu pour sublimer l'aspect de la peau, en affinant son grain, atténuant les ridules, resserrant les pores et boostant son éclat. Pour maintenir ces effets sur le long terme, il est recommandé d'effectuer 3 à 4 séances espacées de 2 semaines chacune, avec un entretien trimestriel.",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "Hydrafacial": {
+            "product": [
+                {
+                    "price": 90,
+                    "name": "Hydrafacial éclat",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 129,
+                    "name": "Hydrafacial global anti âge",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "KRX Carboxy CO2": {
+            "product": [
+                {
+                    "price": 95,
+                    "name": "Rajeunissement Cutané Efficace Sans Effets Secondaires",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Manicure / Pédicure": {
+            "product": [
+                {
+                    "price": 45,
+                    "name": "Beauté pieds javanais",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 25,
+                    "name": "Manucure classique",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 35,
+                    "name": "Manucure spa",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 25,
+                    "name": "Pose vernis semi permanente",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 15,
+                    "name": "Suppression vernis permanent",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Masque Liftante": {
+            "product": [
+                {
+                    "price": 85,
+                    "name": "V-TOX - Lifter et nourrit la peau, effet immédiat",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Nano infusion": {
+            "description": "La Nano-Infusion Thérapie est une alternative douce au microneedling, ciblant les rides, ridules, pigmentation, et cicatrices sans blesser la peau. Ce traitement non invasif hydrate, adoucit, réduit les cicatrices et illumine la peau avec des résultats instantanés et durables. Utilisant un stylo spécial à nano-infusion avec des broches pyramidales, il crée des micro-voies pour une absorption optimale des nutriments, améliorant l'éclat de la peau de 97%.",
+            "product": [
+                {
+                    "price": 135,
+                    "name": "Une - Séance",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 305,
+                    "name": "3 - Séances",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Profosma jet plasma": {
+            "description": "Le Profosma Jet Plasma est une technologie de soin de la peau non invasive, sans douleur et sans temps de récupération, adaptée à tous types de peau. En 3 à 8 séances, elle rajeunit la peau, lifte les paupières, traite l'acné et autres affections, stimule la repousse des cheveux, et réduit cicatrices et hyperpigmentation, améliorant ainsi la luminosité et la qualité de la peau.",
+            "product": [
+                {
+                    "price": 500,
+                    "name": "3 - Séances",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 750,
+                    "name": "5 - Séances",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 875,
+                    "name": "6 - Séances",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 1050,
+                    "name": "8 - Séances",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 1150,
+                    "name": "9 - Séances",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Soin Bio naturelle": {
+            "product": [
+                {
+                    "price": 72,
+                    "name": "AQUAPHYT'S Hydrate, désaltère et rafraîchit la peau",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 65,
+                    "name": "SOIN OLIGO-VITAL - AROMALLIANCE ANTI-ÂGE Anti-rides, nourrit et protège la peau",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 78,
+                    "name": "SOIN MULTI-VITA - AROMALLIANCE ANTI-ÂGE redynamise, lutte contre vieillissement de la peau",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 65,
+                    "name": "SOIN D'O AROMALLIANCE",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 58,
+                    "name": "SOIN CAPYL Apaise et réconforte les peaux à rougeurs diffuses",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 58,
+                    "name": "SOIN SENSI Apaise et réconforte et renforce la barrière cutanée",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 55,
+                    "name": "SOIN ÉQUILIBRANT Equilibre et purifie la peau",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 55,
+                    "name": "AROMACLEAR Rééquilibre, purifier la peau, diminue les imperfections",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        },
+        "Soin Visage Hydrogel": {
+            "list": [
+                {
+                    "title": "Aux extraits caviars blancs",
+                    "product": [
+                        {
+                            "price": 70,
+                            "name": "Liftant et hydratant",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "A la rose",
+                    "product": [
+                        {
+                            "price": 65,
+                            "name": "Éclat et hydration intense",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Baïa ritual",
+                    "product": [
+                        {
+                            "price": 65,
+                            "name": "Régénérant et éclaircissant",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Centaurea",
+                    "product": [
+                        {
+                            "price": 65,
+                            "name": "Anti-inflammatoire et calmant",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                },
+                {
+                    "title": "Spirulina",
+                    "product": [
+                        {
+                            "price": 65,
+                            "name": "Raffermissant et protecteur pour les peaux sensibles et en manque de fermeté",
+                            "method": "",
+                            "info": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Homme": {
+        "Épilation définitive": {
+            "product": [
+                {
+                    "price": 170,
+                    "name": "Epaules’",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 150,
+                    "name": "Thorax",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 300,
+                    "name": "Dos complet",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 170,
+                    "name": "Barbe intégrale",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 80,
+                    "name": "Cou",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 100,
+                    "name": "Contour de barbe",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 70,
+                    "name": "Nuque",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 400,
+                    "name": "Dos + ventre + thorax",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 350,
+                    "name": "Dos + nuque + épaules",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 200,
+                    "name": "Aisselles + thorax",
+                    "method": "",
+                    "info": ""
+                },
+                {
+                    "price": 200,
+                    "name": "Ventre + thorax",
+                    "method": "",
+                    "info": ""
+                }
+            ]
+        }
+    }
+}

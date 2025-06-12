@@ -2,47 +2,99 @@
     {
         "id": 1,
         "title": "Le berceau du bien-être",
-        "image": "/public/media/others/fille_allonger.jpg",
-        "alt": "fille allonger sur le dos",
+        "image": "/images/fille_allonger.jpg",
+        "alt": "Femme profitant d'un massage crânien relaxant dans un spa éclairé à la bougie",
         "text": "Depuis des siècles les Indonésiens ont développé leur propre culture autour du massage et des soins du corps, Il s’agit en fait d’une combinaison de « traitements » physiques et spirituels permettant d’atteindre une relaxation complète du corps et de l’esprit. Créer une atmosphère de calme et de sérénité lui permettant de se détendre au maximum. A l’apogée de la relaxation, les parfums, les couleurs et textures de certaines fleurs affectent les sens humains. D’après les habitants, les fleurs de Frangipanier, Ylang Ylang, Jasmin et autres Hibiscus sont les fleurs des Dieux suprêmes. Certains encens, ont de forts pouvoirs sur les âmes…"
     },
     {
         "id": 2,
-        "title": "",
-        "image": "",
-        "alt": "",
-        "text": ""
+        "title": "Rencontrez Leni",
+        "image": "/images/leni_rituals_of_java.png",
+        "alt": "Leni, responsable souriante de l'agence Rituals of Java, accueillant avec une fleur rose dans ses cheveux",
+        "text": "Forte de nombreuses années d'expertise dans l'univers de l'esthétique et du bien-être, je suis Leni, fondatrice de Rituals of Java. Ma passion pour les traditions de beauté m'a inspirée à vous offrir une expérience unique avec nos soins de prestige indonésiens, ancrés dans un héritage ancestral. Découvrez chez Rituals of Java comment les rituels de beauté indonésiens peuvent transformer et enrichir votre routine de soin."
     },
     {
         "id": 3,
-        "title": "",
-        "image": "",
-        "alt": "",
-        "text": ""
+        "title": "Profosma jet plasma",
+        "image": "/images/profosma_jet_plasma.png",
+        "alt": "Dermatologue souriante présentant un appareil de soin esthétique Plasma Jet pour traitements cutanés",
+        "text": {
+            "ul": [
+                "Le Profosma Jet Plasma est une technologie esthétique non invasive offrant des traitements personnalisables, de 3 à 8 séances, sans douleur ni temps de récupération. Adapté à tous les types de peau, ce service avancé cible le rajeunissement cutané, le lifting des paupières, la réduction des pores, et le traitement de diverses affections telles que l'acné et l'eczéma.",
+                "Il stimule également la repousse des cheveux et réduit les cicatrices et l'hyperpigmentation. Le Profosma Jet Plasma améliore la qualité et la luminosité de la peau, tout en assurant une meilleure absorption des produits de soin."
+            ]
+        },
+        "button": {
+            "path": "/services",
+            "name": "Nos services et tarifs"
+        }
     },
     {
         "id": 4,
-        "title": "",
-        "image": "",
-        "alt": "",
-        "text": ""
+        "title": "Nano infusion",
+        "image": "/images/nano_infusion.jpg",
+        "alt": "Esthéticienne professionnelle effectuant un traitement de nano-infusion sur une cliente détendue en institut de beauté",
+        "text": {
+            "ul": [
+                "La Thérapie Faciale par Nano-Infusion représente une solution avant-gardiste pour traiter efficacement les problématiques cutanées ciblées telles que les rides, les ridules, les problèmes de pigmentation, et les cicatrices, sans les inconvénients du microneedling. Cette méthode révolutionnaire, non invasive, assure un rajeunissement de la peau sans douleur ni saignement, contrairement aux techniques plus agressives.",
+                "Cette technologie de pointe garantit des effets immédiats et de longue durée, revitalisant la peau par une meilleure circulation sanguine, une hydratation profonde, une réduction visible des imperfections et un teint visiblement éclairci. Grâce à un système unique d'infusion, les soins topiques sont plus efficacement absorbés par la peau, optimisant leur efficacité."
+            ]
+        },
+        "button": {
+            "path": "/services",
+            "name": "Nos services et tarifs"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Diode laser",
+        "image": "/images/diode_laser_V2.jpg",
+        "alt": "Système de thérapie par laser à diode pour épilation, avec modèle féminin et appareil professionnel en arrière-plan",
+        "text": {
+            "p": "Optez pour une épilation durable avec notre technologie laser à diode, adaptée à tous types de peau. Prenez rendez-vous pour une consultation sur mesure.",
+            "ul": [
+                "Notre Laser Diode représente la solution parfaite contre la repousse des poils indésirables.",
+                "Grâce à la technologie ice peltier, l'épilation est désormais moins douloureuse.",
+                "Unique en son genre, il convient aux 6 phototypes de peau, contrairement à d'autres méthodes.",
+                "Profitez de l'épilation la plus rapide du marché, avec un traitement complet des jambes et du maillot en seulement 40 minutes.",
+                "La longueur d'onde élevée de notre laser assure une pénétration profonde et efficace.",
+                "Notre technologie laser permet une épilation plus profonde et sécuritaire, en évitant le pigment mélanique, pour une peau protégée et douce."
+            ]
+        },
+        "button": {
+            "path": "/services",
+            "name": "Nos services et tarifs"
+        }
     },
     {
         "id": 5,
-        "title": "",
-        "image": "",
-        "alt": "",
-        "text": ""
+        "title": "Hydrafacial",
+        "image": "/images/hydra_facial_leni.jpg",
+        "alt": "Soins du visage Hydrafacial en cours sur une femme allongée, effectué avec un équipement esthétique moderne",
+        "textAlt": [
+            "Hydrafacial éclat purifiant",
+            "Convient à tous types de peaux surtout pour la peau terne, acnéique, avec surplus séborrhéique, enleve les impuretés et comédons, donne de bons résultats , hydratation garantie et nettoyage profond de la peau.",
+            "Hydrafacial global anti âge",
+            "Convient à tous types de peaux surtout la peau à partir d’un certain âge, nettoie en profondeur, stimule la production de collagène, raffermit et nourrit la peau en profondeur."
+        ],
+        "button": {
+            "path": "/services",
+            "name": "Nos services et tarifs"
+        }
     },
     {
         "id": 6,
-        "title": "",
-        "image": "",
-        "alt": "",
-        "text": ""
+        "title": "L’institut",
+        "image": "/images/institut.jpg",
+        "alt": "Intérieur de l'agence Rituals of Java avec décor balinais, incluant un poster promotionnel et des produits de beauté",
+        "text": "Nous vous accueillons dans notre bel espace composé d’une cabine double, 4 cabines simples, 4 places pour l’onglerie et un grand magasin. Nous avons un large choix de soins tel que l’épilation définitive, la pédicure médicale, les soins du visage, les épilations à la cire, l’endermologie LPG, les extensions et le rehaussement de cils etc…",
+        "button": {
+            "path": "/contact",
+            "name": "Nous contacter"
+        }
     },
     {
-        "id": 7,
+        "id": 6,
         "title": "",
         "image": "",
         "alt": "",

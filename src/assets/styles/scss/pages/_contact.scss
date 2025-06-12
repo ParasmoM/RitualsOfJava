@@ -1,0 +1,213 @@
+@use "../abstracts" as *;
+@use "../abstracts/variables" as *;
+
+.contact-page {
+    background-color: #F5EFEA;
+    color: var(--clr-theme-800);
+    padding-bottom: 2.4rem;
+    margin-top: 8.4rem;
+    opacity: 0;
+    animation: fadeIn .4s ease-in .3s forwards;
+
+    @media (min-width: 768px) {
+        margin-top: 12.6rem;
+        padding-bottom: 4rem;
+    }
+
+    @media (min-width: 992px) {
+        padding-bottom: 10rem;
+    }
+
+    &-hero {
+        @extend %container;
+
+        height: 40rem;
+        background-image: url(../../../../public/images/AdobeStock_299155551_Preview.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 7.5rem;
+            font-weight: 700;
+            color: var(--clr-theme-900);
+            text-align: center;
+        }
+    }
+
+    &__content {
+        @extend %container;
+
+        display: flex;
+        background-color: white;
+        border-radius: 1rem;
+        margin: 2.4rem 2.4rem 0;
+        flex-direction: column;
+
+        @media (min-width: 768px) {
+            flex-direction: row;
+            padding: 2.4rem;
+            margin: 4rem 2.4rem 0;
+        }
+
+        @media (min-width: 992px) {
+            flex-direction: row;
+            padding: 6rem;
+            margin: 10rem 4rem 0;
+        }
+
+        @media (min-width: 1500px) {
+            margin: 4rem auto 0;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            font-family: "Josefin Sans", sans-serif;
+            color: black;
+            margin-top: 6rem;
+            margin-bottom: 2.4rem;
+
+            @media (min-width: 768px) {
+                font-size: 2rem;
+            }
+        }
+
+        p,
+        ul {
+            line-height: 1.2;
+        }
+
+        li:nth-of-type(1),
+        li:nth-of-type(3) {
+            font-weight: 600;
+            color: black;
+        }
+
+        .info {
+            text-align: center;
+
+            @media (min-width: 768px) {
+                text-align: left;
+                flex-basis: 40%;
+                text-align: right;
+                border-right: solid 2px;
+            }
+
+            &__container {
+                padding: 2.4rem;
+                margin-inline: auto;
+                max-width: 40rem;
+
+                @media (min-width: 768px) {
+                    padding: 0 2.4rem 0 0;
+                }
+
+                @media (min-width: 992px) {
+                    padding: 0;
+                    margin-inline: auto 6rem;
+                }
+            }
+
+            .info-logo {
+                width: 100%;
+
+                @media (min-width: 768px) {
+                    height: 17rem;
+                }
+
+                img {
+                    width: 100%;
+
+                    @media (min-width: 768px) {
+                        margin-left: auto;
+                        height: 100%;
+                        width: auto;
+                    }
+                }
+            }
+        }
+
+        .form {
+            @media (min-width: 768px) {
+                flex-basis: 60%;
+            }
+
+            &--container {
+                padding: 2.4rem;
+
+                @media (min-width: 768px) {
+
+                    padding: 23.1rem 0 0 2.4rem;
+                }
+
+                @media (min-width: 992px) {
+                    padding-left: 6rem;
+                }
+            }
+
+            .form--field {
+                display: flex;
+                gap: .5rem;
+                flex-direction: column;
+                margin-bottom: 3rem;
+
+                @media (min-width: 768px) {
+                    gap: 1.5rem;
+                }
+
+                label {
+                    line-height: 1;
+                    color: black;
+                    font-weight: 600;
+                }
+
+                input {
+                    font-size: 1.4rem;
+                    padding: .8rem;
+                    border-radius: .5rem;
+                    border: solid 1px;
+
+                    &:focus {
+                        outline: 1px solid var(--clr-theme-500);
+                        border-color: var(--clr-theme-500);
+                    }
+
+                    @media (min-width: 768px) {
+                        font-size: 1.6rem;
+                        padding: 1.2rem;
+                    }
+                }
+
+                textarea {
+                    height: 20rem;
+                    border-radius: .5rem;
+                    padding: .8rem;
+
+                    &:focus {
+                        outline: 1px solid var(--clr-theme-500);
+                        border-color: var(--clr-theme-500);
+                    }
+                }
+            }
+
+            button {
+                @extend %button;
+
+                display: block;
+                width: 100%;
+
+                @media (min-width: 768px) {
+                    width: auto;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+}
